@@ -1,0 +1,1 @@
+tailwindcss with project
