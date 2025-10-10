@@ -266,11 +266,32 @@
   .w-4 {
     width: calc(var(--spacing) * 4);
   }
+  .w-\[00px\] {
+    width: 00px;
+  }
+  .w-\[1\] {
+    width: 1;
+  }
+  .w-\[10\%\] {
+    width: 10%;
+  }
   .w-\[100px\] {
     width: 100px;
   }
   .w-\[150px\] {
     width: 150px;
+  }
+  .w-\[200px\] {
+    width: 200px;
+  }
+  .w-\[400p\] {
+    width: 400p;
+  }
+  .w-\[400px\] {
+    width: 400px;
+  }
+  .w-\[1000px\] {
+    width: 1000px;
   }
   .w-full {
     width: 100%;
@@ -293,6 +314,15 @@
   .max-w-300 {
     max-width: calc(var(--spacing) * 300);
   }
+  .max-w-\[50px\] {
+    max-width: 50px;
+  }
+  .max-w-\[100px\] {
+    max-width: 100px;
+  }
+  .max-w-\[250px\] {
+    max-width: 250px;
+  }
   .max-w-\[500px\] {
     max-width: 500px;
   }
@@ -301,6 +331,9 @@
   }
   .min-w-\[100px\] {
     min-width: 100px;
+  }
+  .min-w-\[250px\] {
+    min-width: 250px;
   }
   .flex-1 {
     flex: 1;
@@ -505,6 +538,13 @@
     &:hover {
       @media (hover: hover) {
         width: var(--container-xl);
+      }
+    }
+  }
+  .hover\:w-xs {
+    &:hover {
+      @media (hover: hover) {
+        width: var(--container-xs);
       }
     }
   }
